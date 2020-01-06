@@ -1,6 +1,6 @@
 # Lazy View SwiftUI
 
-I came up with this solution independently while working on a project. After some more Googling, I found others had come across the same bug and solved it. I am using this as an opportunity to try my first CocoPod and SwiftPackage.
+I came up with this solution independently while working on a project. After some more Googling, I found others had come across the same bug and solved it. I am using this as an opportunity to try my first CocoaPod and SwiftPackage.
 
 ## Why Lazy Load a SwiftUI View?
 
