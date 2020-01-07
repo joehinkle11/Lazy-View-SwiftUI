@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LazyViewSwiftUI'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Lazy load a SwiftUI view to fix a problem with NavigationLink.'
 
 # This description is used to generate tags and improve search results.
