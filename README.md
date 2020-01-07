@@ -6,7 +6,12 @@ I came up with this solution independently while working on a project. After som
 
 The primary problem is with `NavigationLink`. The destination view given will be immediately instantiated and loaded--before the user even navigates to the details page. This is a problem for large details pages that you don't want to have immediately loaded with the previous screen.
 
+## Example project:
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Example usage:
+
 ```swift
 struct ContentView: View {
     var body: some View {
@@ -18,6 +23,27 @@ struct ContentView: View {
     }
 }
 ```
+
+## Installation
+
+### CocoaPods
+
+LazyViewSwiftUI is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'LazyViewSwiftUI'
+```
+
+### SPM
+
+LazyViewSwiftUI is also available through [Swift Package Manager](https://swift.org/package-manager/). 
+
+Once you have your Swift package set up, adding LazyViewSwiftUI as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+
+dependencies: [
+    .package(url: "https://github.com/joehinkle11/Lazy-View-SwiftUI")
+]
  
 ## Sources
 
