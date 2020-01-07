@@ -1,0 +1,16 @@
+PODS:
+  - LazyViewSwiftUI (0.1.0)
+
+DEPENDENCIES:
+  - LazyViewSwiftUI (from `../`)
+
+EXTERNAL SOURCES:
+  LazyViewSwiftUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LazyViewSwiftUI: 2df82bf65520c4ac35c2c1fabb83802c52bf2d2c
+
+PODFILE CHECKSUM: becd6d37f6e7909e38e12bd3c9ede74b2532282c
+
+COCOAPODS: 1.5.3

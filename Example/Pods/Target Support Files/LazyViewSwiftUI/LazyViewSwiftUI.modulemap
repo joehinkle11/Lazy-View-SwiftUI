@@ -1,0 +1,6 @@
+framework module LazyViewSwiftUI {
+  umbrella header "LazyViewSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,6 @@
 /*
 
- LazyViewSwiftUI.swift
+ LazyView.swift
 
  
  Author: Joe Hinkle
@@ -30,12 +30,12 @@
 
 import SwiftUI
 
-struct LazyView<Content: View>: View {
-    let build: () -> Content
-    init(_ build: @autoclosure @escaping () -> Content) {
+public struct LazyView<Content: View>: View {
+    private let build: () -> Content
+    public init(_ build: @autoclosure @escaping () -> Content) {
         self.build = build
     }
-    var body: Content {
+    public var body: Content {
         build()
     }
 }
