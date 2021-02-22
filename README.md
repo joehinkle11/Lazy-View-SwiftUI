@@ -16,7 +16,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            NavigationLink(destination: LazyView(Text("My details page")) {
+            NavigationLink(destination: LazyView(Text("My details page"))) {
                 Text("Go to details")
             }
         }
